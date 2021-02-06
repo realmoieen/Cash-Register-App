@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns:local = "clr-namespace:Assignment1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Add New Product"
+             x:Class="Assignment1.AddNewProductPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save"
+                 Order="Primary"
+                 Priority="0" 
+                 Clicked="toolBarBtns"/>
+        <ToolbarItem Text="Cancel"
+                 Order="Primary"
+                 Priority="0" 
+                 Clicked="toolBarBtns"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+            <TableView Intent="Form" Margin="16" >
+                <TableRoot>
+                    <TableSection Title="NEW PRODUCT">
+                    <EntryCell x:Name="addItmName" Text="" LabelColor="Black" Label="Product Name" Placeholder="Enter Product Name"></EntryCell>
+                    <EntryCell x:Name="addItmPrice" Text="" LabelColor="Black" Label="Price                 " Placeholder="Enter Product Price"></EntryCell>
+                    <EntryCell x:Name="addItmQuantity" Text="" LabelColor="Black" Label="Quantity          " Placeholder="Enter Product Quantity"></EntryCell>
+                </TableSection>
+            </TableRoot>
+            </TableView>
+    </ContentPage.Content>
+</ContentPage>
