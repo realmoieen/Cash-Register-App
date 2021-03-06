@@ -29,8 +29,8 @@ namespace Assignment1
 
         async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
         {
-            HistoryItem tappedItem = e.Item as HistoryItem;
-            await Navigation.PushAsync(new HistoryDetailPage(tappedItem.ID));
+            //HistoryItem tappedItem = e.Item as HistoryItem;
+            //await Navigation.PushAsync(new HistoryDetailPage(tappedItem.ID));
 
         }
 

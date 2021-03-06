@@ -46,7 +46,7 @@
         <Button Grid.Row="3" Grid.Column="1" FontSize="30" TextColor="#28282c" BorderRadius="30" BackgroundColor="#fff" Text="8" Clicked="numberBtn"/>
         <Button Grid.Row="3" Grid.Column="2" FontSize="30" TextColor="#28282c" BorderRadius="30" BackgroundColor="#fff" Text="9" Clicked="numberBtn"/>
 
-        <Button Grid.Row="4" Grid.Column="0" FontSize="20" TextColor="#28282c" BorderRadius="30" BackgroundColor="#fff" Text="CLR" Clicked="Clear"/>
+        <!-- <Button Grid.Row="4" Grid.Column="0" FontSize="20" TextColor="#28282c" BorderRadius="30" BackgroundColor="#fff" Text="CLR" Clicked="Clear"/> -->
         <Button Grid.Row="4" Grid.Column="1" FontSize="30" TextColor="#28282c" BorderRadius="30" BackgroundColor="#fff" Text="0" Clicked="numberBtn"/>
 
         <Label x:Name="Quantity" Grid.Row="5" Grid.Column="0" Text="Quantity" FontSize="16"  FontAttributes="Bold" TextColor="Black"/>

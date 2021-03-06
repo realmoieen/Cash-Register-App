@@ -7,9 +7,9 @@
              x:Class="Assignment1.ManagerPanelPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Button Text="History" Clicked="redirect"/>
-            <Button Text="Restock" Clicked="redirect"/>
-            <Button Text="Add New Product" Clicked="redirect"/>
+            <Button Text="History" Clicked="redirect" BackgroundColor="Violet" TextColor="Blue"/>
+            <Button Text="Restock" Clicked="redirect" BackgroundColor="Violet" TextColor="Blue"/>
+            <Button Text="Add New Product" Clicked="redirect" BackgroundColor="Violet" TextColor="Blue"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

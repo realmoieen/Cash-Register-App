@@ -21,10 +21,10 @@
     <ContentPage.Content>
             <TableView Intent="Form" Margin="16" >
                 <TableRoot>
-                    <TableSection Title="NEW PRODUCT">
+                    <TableSection Title="NEW PRODUCT" TextColor="Gray">
                     <EntryCell x:Name="addItmName" Text="" LabelColor="Black" Label="Product Name" Placeholder="Enter Product Name"></EntryCell>
-                    <EntryCell x:Name="addItmPrice" Text="" LabelColor="Black" Label="Price                 " Placeholder="Enter Product Price"></EntryCell>
-                    <EntryCell x:Name="addItmQuantity" Text="" LabelColor="Black" Label="Quantity          " Placeholder="Enter Product Quantity"></EntryCell>
+                    <EntryCell x:Name="addItmPrice" Text="" LabelColor="Black" Label="Price       " Placeholder="Enter Product Price" Keyboard="Numeric"></EntryCell>
+                <EntryCell x:Name="addItmQuantity" Text="" LabelColor="Black" Label="Quantity    " Placeholder="Enter Product Quantity" Keyboard="Numeric" ></EntryCell>
                 </TableSection>
             </TableRoot>
             </TableView>

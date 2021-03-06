@@ -29,11 +29,13 @@ namespace Assignment1
                     items.Add(nw);
                     addItmQuantity.Text = String.Empty;
                     addItmPrice.Text = String.Empty; 
-                    addItmName.Text = String.Empty; 
+                    addItmName.Text = String.Empty;
+                    await DisplayAlert("Done!", "New Product Added successfuly", "OK");
+                    await Navigation.PopToRootAsync();
                 }
                 else
                 {
-                    await DisplayAlert("Error", "Please, fill out the form", "Ok");
+                    await DisplayAlert("Error", "Please, fill out the form", "OK");
                 }
             }
             else
